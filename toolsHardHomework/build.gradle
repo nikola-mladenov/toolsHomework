@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+jar{
+
+	manifest{
+		attributes 'Main-Class': 'main.java.toolsHomework.Main'
+	}
+
+}
+
+repositories{
+
+	mavenLocal()
+	mavenCentral()
+
+}
+
+
+mainClassName='main.java.toolsHomework.Main'
